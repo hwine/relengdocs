@@ -207,10 +207,11 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  ('index', 'RelEngDocs.tex', u'RelEng Docs Documentation',
-   u'catlee and a cast of tens!', 'manual'),
-]
+if not on_rtd:
+    latex_documents = [
+    ('index', 'RelEngDocs.tex', u'RelEng Docs Documentation',
+    u'catlee and a cast of tens!', 'manual'),
+    ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
