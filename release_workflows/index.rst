@@ -3,16 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Release Workflows with Inter-Team Handoffs
-==========================================
-
-Contents:
-
-.. toctree::
-    :maxdepth: 2
-
-    fx_ga_release.rst
-    fx_beta_release.rst
+RelEng Workflows with Inter-Team Handoffs
+=========================================
 
 .. _workflow_disclaimer:
 .. caution:: **NOT AUTHORITATIVE**
@@ -21,6 +13,24 @@ Contents:
     discrepancies are noticed, the official procedures (which may
     include release specific changes) are authoritative.
 
-For Release Engineering, the authoritative procedures are listed as
-`checklists <https://wiki.mozilla.org/Releases/RelEngChecklist>`_
-in the main wiki.
+For Release Engineering, the authoritative procedures are listed
+in `wikimo`_. Specific references should be with each workflow
+
+.. _wikimo: https://wiki.mozilla.org
+
+Firefox Release Builds
+----------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    fx_ga_release.rst
+    fx_beta_release.rst
+
+Firefox OS Support
+------------------
+
+.. toctree::
+    :maxdepth: 2
+
+    b2g_new_version.rst
