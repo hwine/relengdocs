@@ -13,6 +13,7 @@ Contents:
 
     fx_ga_release.rst
     fx_beta_release.rst
+    git_build_trigger.rst
 
 .. _workflow_disclaimer:
 .. caution:: **NOT AUTHORITATIVE**
